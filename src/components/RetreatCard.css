@@ -1,0 +1,35 @@
+
+.retreat-card {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .retreat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .retreat-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .retreat-description {
+    color: #555;
+  }
+  
+  .retreat-date,
+  .retreat-location,
+  .retreat-price {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
